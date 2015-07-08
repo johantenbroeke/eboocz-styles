@@ -8,6 +8,14 @@
             "filename": "css/titlepage.css",
             "description": "Title Page always consists of the title, subtitle (if available) and the author. You can also add the publisher, publisher city, and possibly other things.",
             "styling": "This title page is centered at the top of the page with a margin of 3em and the font-size is 100%. Use headings to add different sizes. Usually the title is heading 1 and the subtitle and author are smaller headings."
+        },
+        {
+            "title": "Titlepage right green",
+            "epub-type": "titlepage",
+            "template-name": "titlepage green right",
+            "filename": "css/title-right.css",
+            "description": "This is just a test.",
+            "styling": "This title page is right aligned!"
         }
 
     ],

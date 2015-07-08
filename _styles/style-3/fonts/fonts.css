@@ -4,3 +4,10 @@
     font-weight: normal;
     src: url(someawesomefont.woff);
 }
+
+@font-face {
+    font-family: Script;
+    font-style: normal;
+    font-weight: normal;
+    src: url(AlexBrush-Regular.ttf);
+}
