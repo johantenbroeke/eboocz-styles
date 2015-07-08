@@ -1,0 +1,95 @@
+{
+    "css": [
+         
+        {
+            "title": "Titlepage",
+            "epub-type": "titlepage",
+            "template-name": "title",
+            "filename": "css/title.css",
+            "description": "Title Page always consists of the title, subtitle (if available) and the author. You can also add the publisher, publisher city, and possibly other things.",
+            "styling": "This title page is centered at the top of the page with a margin of 3em and the font-size is 100%. Use headings to add different sizes. Usually the title is heading 1 and the subtitle and author are smaller headings, but this is not a rule and there are no penalties for breaking non-existing rules"
+        },
+
+
+        {
+            "title": "Halftitle page",
+            "epub-type": "halftitlepage",
+            "template-name": "title-half",
+            "filename": "css/title-half.css",
+            "description": "The Halftitle is the main title of the book and nothing else. No subtitle, no author, just the title.",
+            "styling": "You don't need a heading for the half title. Just select the half title style and type the title below the template. Some authors like uppercase half titles. It's up to you. The halftitle is centered at the top of the page with a margin of 3em and the font-size is 90%."
+        },
+        
+        {
+        	"title": "Copyright page",
+        	"epub-type": "copyright-page",
+        	"template-name": "copyright",
+        	"filename": "css/copyright.css",
+        	"description": "This is the copyright page of the book. The only element that is absolutely required on a copyright page is a simple copyright statement consisting of the © symbol, the year of publication, your name and a short statement that the rights to reproduce this book are reserved to the copyright holder. So if I was a minimalist my copyright statement could simply look like this '© 2015 Christian Zierleyn' and a line with 'All rights reserved.'. On a Mac the copyright symbol can be typed by hitting 'Alt + g'. Of course you can put a lot more on this page, like your address, website address, contact information, isbn and more. Just pick up a couple of books from your shelves or open a couple of books on your ereader to see how other publishers make use of this page.",
+        	"styling": "The style of the copyright page is quite simpel."
+        	},       	
+
+		{	
+			"title": "Dedication",
+			"epub-type": "dedication",
+			"template-name": "dedication",
+			"filename": "css/dedication.css",
+			"description": "",
+			"styling": ""
+			},
+
+		{
+			"title": "epigraph",
+			"epub-type": "epigraph",
+			"template-name": "epigraph",
+			"filename": "css/epigraph.css",
+			"description": "",
+			"styling": ""
+			},
+			
+		{
+			"title": "part",
+			"epub-type": "part",
+			"template-name": "part",
+			"filename": "css/part.css",
+			"description": "",
+			"styling": ""
+			},
+			
+		{
+			"title": "base",
+			"epub-type": "base",
+			"template-name": "base",
+			"filename": "css/base.css",
+			"description": "",
+			"styling": ""
+			},
+		{
+			"title": "chapter",
+			"epub-type": "chapter",
+			"template-name": "chapter",
+			"filename": "css/chapter.css",
+			"description": "",
+			"styling": ""
+			},
+ 
+        		{
+			"title": "toc",
+			"epub-type": "toc",
+			"template-name": "toc",
+			"filename": "css/toc.css",
+			"description": "",
+			"styling": ""
+			},
+			
+        
+    ],
+    "fonts": {
+        "css": "fonts/fonts.css",
+        "fonts": [
+        ]
+    },
+    "images": [
+
+    ]
+}	

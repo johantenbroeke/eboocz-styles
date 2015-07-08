@@ -1,0 +1,14 @@
+/*
+
+Eboocz Simple
+
+This is a simple template for eboocz. It's intended for fiction and
+contains the most basic elements of a book; half-title, title, 
+copyright page, dedication, epigraph, part, chapter and table of content.
+
+Visit http://www.eboocz.com/styles for full reference
+
+*/
+
+html { text-rendering: optimizeLegibility !important; }
+h1, h2, h3 { -webkit-hyphens: none !important; }
