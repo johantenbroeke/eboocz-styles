@@ -63,3 +63,9 @@ img[data-page-break~=before]                      { page-break-before:   left; }
 /*  Custom Styles
 */
 
+h1:before {
+  content:url('../images/pointing-hand-md.png');
+  position:relative; /*or absolute*/
+  z-index:100000; /*a number that's more than the modal box*/
+}
+
