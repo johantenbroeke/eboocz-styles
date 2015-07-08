@@ -22,7 +22,8 @@
     "fonts": {
         "css": "fonts/fonts.css",
         "fonts": [
-            "fonts/someawesomefont.woff"
+            "fonts/someawesomefont.woff",
+            "fonts/AlexBrush-Regular.ttf"
         ]
     },
     "images": [
