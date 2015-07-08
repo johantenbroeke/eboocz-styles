@@ -30,5 +30,13 @@ title: Eboocz styles
 
 ----------
 
+###simple-centered
+
+![simple-centered](images/simple-centered.png "simple-centered")
+
+[install](styles/simple-centered.ebczstyle)
+
+----------
+
 
 

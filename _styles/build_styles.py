@@ -55,4 +55,5 @@ if __name__ == "__main__":
     b.zip("style-1", "../styles/style-1")
     b.zip("style-2", "../styles/style-2")
     b.zip("style-3", "../styles/style-3")
+    b.zip("simple-centered", "../styles/simple-centered")
     b.writeMarkDown()
