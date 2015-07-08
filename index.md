@@ -8,7 +8,7 @@ title: Eboocz styles
 
 ###style-1
 
-![style-1](images/preview.png "style-1")
+![style-1](images/style-1.png "style-1")
 
 [install](styles/style-1.ebczstyle)
 
@@ -16,7 +16,7 @@ title: Eboocz styles
 
 ###style-2
 
-![style-2](images/preview.png "style-2")
+![style-2](images/style-2.png "style-2")
 
 [install](styles/style-2.ebczstyle)
 
@@ -24,7 +24,7 @@ title: Eboocz styles
 
 ###style-3
 
-![style-3](images/preview.png "style-3")
+![style-3](images/style-3.png "style-3")
 
 [install](styles/style-3.ebczstyle)
 

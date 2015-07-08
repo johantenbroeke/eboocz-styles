@@ -16,7 +16,7 @@ title: Eboocz styles
 
 STYLE_TEMPLATE = """###%(style_name)s
 
-![%(style_name)s](images/preview.png "%(style_name)s")
+![%(style_name)s](images/%(style_id)s.png "%(style_name)s")
 
 [install](styles/%(style_id)s.ebczstyle)
 
