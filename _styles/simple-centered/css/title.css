@@ -3,7 +3,9 @@
 Simple Centered Title Page
 
 Title Page always consists of the title, subtitle (if available) and the author. You can also add the publisher, publisher city, and possibly other things. 
-Styling: This title page is centered at the top of the page with a margin of 3em and the font-size is 100%. Use headings to add different sizes. Usually the title is heading 1 and the subtitle and author are smaller headings. But these rules are there to be broken and I've seen lots of books that use the h1 for the author. I guess it all depends on how important you think you are. :)
+Styling: This title page is centered at the top of the page with a margin of 40px. 
+
+Use headings to add different sizes. Usually the title is heading 1 and the subtitle and author are smaller headings. But these rules are there to be broken and I've seen lots of books that use the h1 for the author. I guess it all depends on how important you think you are. ;-)
 
 In case you want to add a picture to the Part Page, I made sure the image is on the same page, so no page breaks before and after. 
 

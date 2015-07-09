@@ -2,11 +2,11 @@
 
 Simple Centered Style
 
-This is a simple template for eboocz. It's intended for fiction and
-contains the most basic elements of a book; half-title, title, 
-copyright page, dedication, epigraph, part, chapter and table of content.
-Headings, Title Page, Half Title Page, Dedication and Table of Content and 
-Copyright Page are centered in this style.
+This is a simple style for a chapter. It centers the title and gives the first letter of the first paragraph a font-size of 200%.
+
+A following paragraph (p + p) will indent the first word  with 1.5em.
+
+Blockquotes will be emphasized and images have a margin of 0 and min-width of 100%.
 
 Visit http://www.eboocz.com/styles for full reference
 
