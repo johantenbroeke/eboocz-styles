@@ -1,0 +1,26 @@
+/*
+
+Simple Left Copyright Page 
+
+The copyright page starts at 3em. The font size is 90%, so it's a little bit smaller than normal. Unlike in the normal style, there is no text indent, padding and margin with p + p. The copyright page is thus one compact block of text. 
+
+Visit http://www.eboocz.com/styles for full reference
+
+*/
+
+p {
+  font-size: 90%;
+  padding-top: 0em;
+  margin-right: 0px; 
+  margin-top: 3em;
+  text-align: left; 
+  text-decoration: none; 
+  text-indent: 0px;
+  margin-bottom: 0em;
+  }
+p + p
+	{ 
+	margin-top: 0em; 
+	padding-top: 0em;
+	text-indent: 0px; 
+	}

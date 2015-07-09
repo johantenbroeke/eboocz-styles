@@ -1,0 +1,81 @@
+
+
+{
+    "css": [
+
+		{
+			"title": "chapter",
+			"epub-type": "chapter",
+			"template-name": "chapter",
+			"filename": "css/chapter.css",
+			"description": "The chapter style is probably the most used style.",
+			"styling": "This is a simple style for a chapter. It centers the title and gives the first letter of the first paragraph a font-size of 200%.
+
+A following paragraph (p + p) will indent the first word  with 1.5em.
+
+Blockquotes will be emphasized and images have a margin of 0 and min-width of 100%."
+			},
+
+                 {
+            "title": "half title",
+            "epub-type": "halftitlepage",
+            "template-name": "halftitlepage",
+            "filename": "css/title-half.css",
+            "description": "The Halftitle is the main title of the book and nothing else. No subtitle, no author, just the title.",
+            "styling": "You don't need a heading for the half title. Just select the half title style and type the title below the template. Some authors like uppercase half titles. It's up to you. The halftitle is centered at the top of the page with a margin of 3em and the font-size is 90%."
+        },
+       
+        {
+            "title": "title",
+            "epub-type": "titlepage",
+            "template-name": "titlepage",
+            "filename": "css/title.css",
+            "description": "Title Page always consists of the title, subtitle (if available) and the author. You can also add the publisher, publisher city, and possibly other things.",
+            "styling": "This title page is centered at the top of the page with a margin of 3em and the font-size is 100%. Use headings to add different sizes. Usually the title is heading 1 and the subtitle and author are smaller headings, but this is not a rule and there are no penalties for breaking non-existing rules"
+        },
+ 
+        {
+        	"title": "copyright",
+        	"epub-type": "copyright-page",
+        	"template-name": "copyright page",
+        	"filename": "css/copyright.css",
+        	"description": "This is the copyright page of the book. The only element that is absolutely required on a copyright page is a simple copyright statement consisting of the © symbol, the year of publication, your name and a short statement that the rights to reproduce this book are reserved to the copyright holder. So if I was a minimalist my copyright statement could simply look like this '© 2015 Christian Zierleyn' and a line with 'All rights reserved.'. On a Mac the copyright symbol can be typed by hitting 'Alt + g'. Of course you can put a lot more on this page, like your address, website address, contact information, isbn and more. Just pick up a couple of books from your shelves or open a couple of books on your ereader to see how other publishers make use of this page.",
+        	"styling": "The style of the copyright page is quite simpel."
+        	},       	
+
+		{	
+			"title": "dedication",
+			"epub-type": "dedication",
+			"template-name": "dedication",
+			"filename": "css/dedication.css",
+			"description": "",
+			"styling": "The dedication style has a top margin of 3em and it is centered. Some people like their dedication to be in emphasis You can use regular Markdown to achieve this. There is no margin at p + p like in the copyright page, so all paragraphs will 
+form one block of text."
+			},
+
+		{
+			"title": "epigraph",
+			"epub-type": "epigraph",
+			"template-name": "epigraph",
+			"filename": "css/epigraph.css",
+			"description": "",
+			"styling": "This Epigraph page is quite simple. It's based on the idea that an epigraph consists of two parts, or rather, two paragraphs. The first part is the quote, the second part is the name of the author and the name of the referenced work. 
+
+In this style, the epigraph is centered, with a margin of 3em. The trick is in the p + p. The first paragraph has a top margin of 3em, the second a top margin of 0.4em. 
+
+For those writers who love epigraphs I have made a style that can accomodate up to 6 epigraphs. The third paragraph has a top margin of 2em and the fourth again a top margin of 0.4 em. And so on. This way the quotes and writer names are grouped together and you can just type on without having to think about styling. 
+
+There's one thing you have to think about though. Don't add paragraphs within a quote, because then the margins will be a mess."
+			},
+			
+		{
+			"title": "part",
+			"epub-type": "part",
+			"template-name": "part",
+			"filename": "css/part.css",
+			"description": "",
+			"styling": "This is a simple template for a Part page. It is pretty much the same as the chapter style. One difference is that it will add the epub-type Part to this page, so readers will understand that it is not a chapter or anything else."
+			},
+		
+    ]
+}	

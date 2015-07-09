@@ -1,0 +1,32 @@
+/*
+
+Simple Left Style
+
+This is a simple style for a chapter. It aligns on the left side the title and gives the first letter of the first paragraph a font-size of 200%. A following paragraph (p + p) will indent the first word  with 1.5em. Blockquotes will be emphasized and images have a margin of 0 and min-width of 100%.
+
+Visit http://www.eboocz.com/styles for full reference
+
+*/
+
+html { text-rendering: optimizeLegibility !important; }
+h1, h2, h3 { -webkit-hyphens: none !important; }
+
+h1 {
+	font-size: 2em;
+	line-height: 1.1em;
+	margin-top: 3em;
+	margin-bottom: 2em;
+	padding-top: 3em;
+	page-break-before: always !important;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+	margin-top: 1em; 
+	page-break-after: avoid !important; 
+	text-align: left;
+}
+p { margin: 0; }
+h1 + p::first-letter { font-size: 200%;}
+p + p { margin: 0; text-indent: 1.5em; }
+blockquote { font-style: italic;}
+img { margin: 0;min-width: 100%;}
