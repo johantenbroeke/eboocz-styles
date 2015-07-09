@@ -68,8 +68,7 @@ There's one thing you have to think about though. Don't add paragraphs within a 
 			"template-name": "part",
 			"filename": "css/part.css",
 			"description": "",
-			"styling": "This is a simple template for a Part page. It is pretty much the same as the chapter style. One difference is that it will add the epub-type Part to this page, so readers will understand that it is not a chapter or anything else.
-"
+			"styling": "This is a simple template for a Part page. It is pretty much the same as the chapter style. One difference is that it will add the epub-type Part to this page, so readers will understand that it is not a chapter or anything else."
 			},
 			
 		{
