@@ -22,19 +22,19 @@ title: Eboocz styles
 
 ----------
 
-###Centered-Left
-
-![Centered-Left](images/Centered-Left.png "Centered-Left")
-
-[install](styles/Centered-Left.ebczstyle)
-
-----------
-
 ###Left
 
 ![Left](images/Left.png "Left")
 
 [install](styles/Left.ebczstyle)
+
+----------
+
+###Centered-Left
+
+![Centered-Left](images/Centered-Left.png "Centered-Left")
+
+[install](styles/Centered-Left.ebczstyle)
 
 ----------
 
