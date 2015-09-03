@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 	page-break-after: avoid !important;
 }
 
-p { margin: 1.2; }
+p { margin: 0; }
 h1 + p::first-letter { font-size: 200%;}
 p + p { margin: 0; text-indent: 1.5em; }
 blockquote { font-style: italic;}
