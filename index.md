@@ -6,19 +6,27 @@ title: Eboocz styles
 ##Eboocz styles
 
 
-###simple-centered
+###Centered
 
-![simple-centered](images/simple-centered.png "simple-centered")
+![Centered](images/Centered.png "Centered")
 
-[install](styles/simple-centered.ebczstyle)
+[install](styles/Centered.ebczstyle)
 
 ----------
 
-###simple-left
+###Centered-Left
 
-![simple-left](images/simple-left.png "simple-left")
+![Centered-Left](images/Centered-Left.png "Centered-Left")
 
-[install](styles/simple-left.ebczstyle)
+[install](styles/Centered-Left.ebczstyle)
+
+----------
+
+###Left
+
+![Left](images/Left.png "Left")
+
+[install](styles/Left.ebczstyle)
 
 ----------
 

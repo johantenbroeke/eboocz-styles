@@ -1,0 +1,31 @@
+/*
+
+Simple Centered Copyright Page 
+
+This is the copyright page of the book. The only element that is absolutely required on a copyright page is a simple copyright statement consisting of the © symbol, the year of publication, your name and a short statement that the rights to reproduce this book are reserved to the copyright holder. So if I was a minimalist my copyright statement could simply look like this '© 2015 Christian Zierleyn' and a line with 'All rights reserved.'. On a Mac the copyright symbol can be typed by hitting 'Alt + g'. Of course you can put a lot more on this page, like your address, website address, contact information, isbn and more. Just pick up a couple of books from your shelves or open a couple of books on your ereader to see how other publishers make use of this page. Of course, if you're publishing under a Creative Commons license, you can put it right here, instead of the standard copyright text
+
+The style of the copyright page is quite simpel. The text is 90% and presented as one block of text. This means every paragraph has a margin and padding of 0em. This makes it simple to put every part of the copyright statement on a new line. If you do want paragraphs with a margin, you could use a paragraph with a &nbsp;
+
+Visit http://www.eboocz.com/styles for full reference
+
+*/
+
+p {
+  font-size: 90%;
+  margin-top: 3em;
+  text-decoration: none; 
+  text-indent: 0px;
+  margin-bottom: 0em;
+  }
+p + p
+	{ 
+	margin-top: 0em; 
+	padding-top: 0em;
+	text-indent: 0px; 
+	}
+@page {
+	margin-top: 30px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}

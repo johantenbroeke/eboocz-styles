@@ -1,0 +1,31 @@
+/*
+
+Centered Half Title Page
+
+This is a simple template for a half title page. The Halftitle is the main title of the book and nothing else. No subtitle, no author, just the title. 
+
+In this style you don't need a heading for the half title. Just select the half title style and type the title below the template lines. Some authors like uppercase half titles. That's up to you. The halftitle is centered at the top of the page with a margin of 3em and the font-size is 90%. 
+
+
+Visit http://www.eboocz.com/styles for full reference
+
+*/
+
+html { text-rendering: optimizeLegibility !important; }
+h1, h2, h3 { -webkit-hyphens: none !important; }
+
+p
+{
+	font-weight:normal;
+	font-size:90%;
+	margin-top:3em;
+	margin-bottom:2em;
+	text-align:center;
+}
+
+@page {
+	margin-top: 30px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}

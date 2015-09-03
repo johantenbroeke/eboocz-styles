@@ -1,0 +1,144 @@
+/*
+
+Simple Centered Epigraph Page
+
+Use the epigraph to inspire or perplex your readers with quotes from other brilliant writers.
+
+This Epigraph page is quite simple. It's based on the idea that an epigraph consists of two parts, or rather, two paragraphs. 
+
+The first part is the quote, aligned left, the second part is the name of the author and the name of the referenced work and this paragraph is aligned right. In this style, the epigraph is centered, with a margin of 3em on both sides. 
+
+The trick is in the p + p. The first paragraph has a top margin of 3em, the second a top margin of 0.4em. For those writers who love epigraphs I have made a style that can accomodate up to 6 epigraphs. The third paragraph has a top margin of 2em and the fourth again a top margin of 0.4 em. And so on. This way the quotes and writer names are grouped together and you can just type on without having to think about styling. 
+
+There's one thing you have to think about though. Don't add paragraphs within a quote, because then the margins will be a mess.
+
+Visit http://www.eboocz.com/styles for full reference
+
+*/
+
+
+p {
+  padding-top: 0em;
+  margin-right: 3em; 
+  margin-left: 3em; 
+  margin-top: 3em;
+  text-align: left; 
+  text-decoration: none; 
+  text-indent: 0px;
+  margin-bottom: 0em;
+  }
+p + p
+	{ 
+	text-align: right;
+	margin-top: 0.4em; 
+	padding-top: 0em;
+	margin-right: 4em; 
+	}
+	
+p + p + p
+{
+  padding-top: 0em;
+  margin-right: 3em; 
+  margin-left: 3em; 
+  margin-top: 2em;
+  text-align: left; 
+  text-decoration: none; 
+  text-indent: 0px;
+  margin-bottom: 0em;
+  }
+
+p + p + p + p
+	{ 
+	text-align: right;
+	margin-top: 0.4em; 
+	padding-top: 0em;
+	margin-right: 4em; 
+	}
+
+	
+p + p + p + p + p
+{
+  padding-top: 0em;
+  margin-right: 3em; 
+  margin-left: 3em; 
+  margin-top: 2em;
+  text-align: left; 
+  text-decoration: none; 
+  text-indent: 0px;
+  margin-bottom: 0em;
+  }
+
+p + p + p + p + p + p
+	{ 
+	text-align: right;
+	margin-top: 0.4em; 
+	padding-top: 0em;
+	margin-right: 4em; 
+	}
+
+p + p + p + p + p + p + p
+{
+  padding-top: 0em;
+  margin-right: 3em; 
+  margin-left: 3em; 
+  margin-top: 2em;
+  text-align: left; 
+  text-decoration: none; 
+  text-indent: 0px;
+  margin-bottom: 0em;
+  }
+
+p + p + p + p + p + p + p + p
+	{ 
+	text-align: right;
+	margin-top: 0.4em; 
+	padding-top: 0em;
+	margin-right: 4em; 
+	}
+p + p + p + p + p + p + p + p + p
+{
+  padding-top: 0em;
+  margin-right: 3em; 
+  margin-left: 3em; 
+  margin-top: 2em;
+  text-align: left; 
+  text-decoration: none; 
+  text-indent: 0px;
+  margin-bottom: 0em;
+  }
+
+p + p + p + p + p + p + p + p + p + p
+	{ 
+	text-align: right;
+	margin-top: 0.4em; 
+	padding-top: 0em;
+	margin-right: 4em; 
+	}
+
+p + p + p + p + p + p + p + p + p + p + p
+{
+  padding-top: 0em;
+  margin-right: 3em; 
+  margin-left: 3em; 
+  margin-top: 2em;
+  text-align: left; 
+  text-decoration: none; 
+  text-indent: 0px;
+  margin-bottom: 0em;
+  }
+
+p + p + p + p + p + p + p + p + p + p + p + p
+	{ 
+	text-align: right;
+	margin-top: 0.4em; 
+	padding-top: 0em;
+	margin-right: 4em; 
+	}
+
+
+@page {
+	margin-top: 30px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
