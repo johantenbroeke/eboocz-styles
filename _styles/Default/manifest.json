@@ -1,0 +1,18 @@
+{
+    "css": [
+        {
+            "title": "chapter",
+            "epub-type": "chapter",
+            "filename": "css/chapter.css",
+            "description": "Default chapter style.",
+            "styling": "This is a simple style for a chapter. It sets the title left. First paragraph is not indented. The following paragraphs (p + p) will indent the first word  with 1.5em. Blockquotes will be emphasized and images have a margin of 0 and min-width of 100%."
+        },
+        {
+            "title": "title",
+            "epub-type": "titlepage",
+            "filename": "css/title.css",
+            "description": "This is a simple centered title page.",
+            "styling": "Use headings to add different sizes. Usually the title is heading 1 and the subtitle and author are smaller headings, but this is not a rule and there are no penalties for breaking non-existing rules"
+        },
+    ]
+}
