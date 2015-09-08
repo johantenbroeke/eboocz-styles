@@ -1,0 +1,9 @@
+# Site settings
+title: Eboocz Styles
+tag_text: Eboocz
+description: Styles for Eboocz E-pub publishing
+
+# Build settings
+markdown: kramdown
+
+exclude: ["README.md"]
