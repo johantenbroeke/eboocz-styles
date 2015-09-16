@@ -5,27 +5,12 @@ title: Eboocz styles
 
 ##Eboocz styles
 
-###Default
-
-![default](images/Default.png "default")
-
-[install](styles/Default.ebczstyle)
-
-----------
 
 ###Centered
 
 ![Centered](images/Centered.png "Centered")
 
 [install](styles/Centered.ebczstyle)
-
-----------
-
-###Left
-
-![Left](images/Left.png "Left")
-
-[install](styles/Left.ebczstyle)
 
 ----------
 
@@ -37,7 +22,21 @@ title: Eboocz styles
 
 ----------
 
+###Default
 
+![Default](images/Default.png "Default")
+
+[install](styles/Default.ebczstyle)
+
+----------
+
+###Left
+
+![Left](images/Left.png "Left")
+
+[install](styles/Left.ebczstyle)
+
+----------
 
 
 

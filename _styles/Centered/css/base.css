@@ -32,4 +32,17 @@ p { margin: 0; }
 h1 + p::first-letter { font-size: 200%;}
 p + p { margin: 0; text-indent: 1.5em; }
 blockquote { font-style: italic;}
-img { margin: 0;min-width: 100%;}
+
+img {
+margin: 0;
+width: 90%;
+margin-top: 2em;
+margin-bottom: 2em;
+}
+
+@page {
+	margin-top: 30px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}

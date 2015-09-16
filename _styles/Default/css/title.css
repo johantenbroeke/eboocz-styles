@@ -29,6 +29,13 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 }
 
+img {
+margin: 0;
+width: 90%;
+margin-top: 2em;
+margin-bottom: 2em;
+}
+
 @page {
 	margin-top: 30px;
 	margin-right: 20px;

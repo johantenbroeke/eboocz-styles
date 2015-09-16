@@ -30,7 +30,13 @@ h1, h2, h3, h4, h5, h6 {
 p {margin: 0; }
 p + p { margin: 0; text-indent: 1.5em; }
 blockquote { font-style: italic;}
-img { margin: 0;min-width: 100%;}
+
+img {
+margin: 0;
+width: 90%;
+margin-top: 2em;
+margin-bottom: 2em;
+}
 
 @page {
 	margin-top: 30px;
