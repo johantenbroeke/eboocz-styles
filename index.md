@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Eboocz styles
+title: Eboocz styles development
 ---
 
 ##Eboocz styles
